@@ -1,0 +1,8 @@
+from tkinter import*
+a = Tk()
+theLabel = Label(a, text="New York Times", bg="lightgray", fg="grey", border=100, font='times 18 italic underline bold')
+a.configure(background='white')
+a.geometry("300x200+200+250")
+theLabel.pack()
+a.title("The New York Times")
+a.mainloop()
